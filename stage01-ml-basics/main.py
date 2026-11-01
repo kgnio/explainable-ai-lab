@@ -14,7 +14,6 @@ result = predict_risk(**customer)
 
 print(f"Risk puanı: {result:.2f}")
 
-# Şimdi yalnızca borç miktarını değiştiriyoruz.
 customer["debt"] = 60000
 
 new_result = predict_risk(**customer)
